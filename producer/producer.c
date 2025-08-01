@@ -1,10 +1,3 @@
-/*
- * Choueb Salah
- * No Étudiant : 8749973
- * CSI3531 - Devoir 4
- * Question 3
- */
-
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
