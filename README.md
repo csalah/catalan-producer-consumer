@@ -1,7 +1,7 @@
 
 # Shared Memory Catalan Producer-Consumer
 
-Inter process communication in C using **System V shared memory**. One process (the producer) generates a sequence of **Catalan numbers** and writes them to shared memory. Another process (the consumer) waits until the data is ready and then reads it.
+Inter process communication in C using **System V shared memory**. One process (the producer) generates a sequence of Catalan numbers and writes them to shared memory. Another process (the consumer) waits until the data is ready and then reads it.
 
 Catalan numbers are generated using the recursive formula:
 Cₙ₊₁ = Cₙ * 2(2n + 1) / (n + 2)
@@ -15,7 +15,7 @@ Cₙ₊₁ = Cₙ * 2(2n + 1) / (n + 2)
 
 ---
 
-## How to Compile
+## How to Compile & Run
 
 ```bash
 gcc -o producteur producteur.c
